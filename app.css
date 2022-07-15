@@ -1,0 +1,117 @@
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
+
+.attribution {
+   font-size: 11px;
+   text-align: center;
+}
+
+body {
+   background-color: hsl(233, 47%, 7%);
+   font-size: 15px;
+   margin: 0;
+   font-weight: 400;
+}
+
+.card {
+
+   background-color: hsl(275, 100%, 25%);
+   border-radius: 7.5px;
+   margin: 20% 7.5%;
+
+}
+
+#img {
+   opacity: 0.4;
+   width: 100%;
+   display: block;
+}
+
+section {
+
+   background-color: hsl(244, 38%, 16%);
+   border-radius: 0 0 7.5px 7.5px;
+   padding: 7.5%;
+   text-align: center;
+}
+
+b {
+   color: purple;
+}
+
+.unlist,
+h1,
+p {
+   color: aliceblue;
+   font-family: sans-serif;
+}
+
+#header {
+   margin: 10px 10px;
+   padding: 20px
+}
+
+#parag {
+   margin: 10px;
+   padding: 20px
+}
+
+.lists {
+   margin-bottom: 15px;
+   padding: 20px;
+}
+
+#imgdesk {
+   border-radius: 0 7.5px 7.5px 0;
+   display: none;
+   width: 50%;
+}
+
+@media(max-width:1400px) {
+
+
+
+   main {
+      font-size: 1.075em;
+      margin: 12%;
+   }
+
+   #img {
+      display: none;
+   }
+
+   #card-body {
+      border-radius: 7.5px 0 0 7.5px;
+      padding: 4% 9% 4% 6%;
+      text-align: left;
+      width: 20%;
+   }
+
+   #imgdesk {
+      display: block;
+   }
+
+   p {
+      line-height: 1.5em;
+   }
+
+   main,
+   ul {
+      display: flex;
+   }
+
+   h2 {
+      margin: 4% 0;
+   }
+
+   li {
+      width: 30%;
+   }
+
+
+
+
+
+
+}
